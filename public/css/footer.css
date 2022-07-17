@@ -1,0 +1,11 @@
+.footerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: black;
+  color: antiquewhite;
+  height: 10vh;
+}

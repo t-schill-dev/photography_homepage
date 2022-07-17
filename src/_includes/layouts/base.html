@@ -5,12 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/global.css">
+  {% block head %}{% endblock %}
 </head>
 <header>
   {% include "navbar.html" %}
 </header>
 <body>
-  {{ content | safe }}
+  <div class="container">
+    {{ content | safe }}
+  </div>
 </body>
 <footer>
   {% include "footer.html" %}

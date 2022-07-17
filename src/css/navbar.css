@@ -1,0 +1,29 @@
+header {
+  height: 5vh;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  box-shadow: 0px 0px 10px lightgrey;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
