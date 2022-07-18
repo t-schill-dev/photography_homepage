@@ -2,8 +2,13 @@
 @import url('./navbar.css');
 @import url('./footer.css');
 
+:root {
+  --colorBlue: blue;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
 }
 
 .container {
@@ -12,3 +17,4 @@ body {
   margin: 0 10%;
   height: 85vh;
 }
+
