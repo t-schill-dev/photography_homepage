@@ -1,3 +1,14 @@
 h1 {
-  color: cornflowerblue;
+    color: cornflowerblue;
+}
+
+.about-page_top {
+    height: 100vh;
+    background-color: grey;
+}
+
+.about-values {
+    height: 100vh;
+    display: flex;
+    background-color: blue;
 }
