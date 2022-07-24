@@ -2,24 +2,28 @@ h1 {
     color: cornflowerblue;
 }
 
-
-/* .about-page {
+.about-page {
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+}
 
 .about-page_top {
     height: 100vh;
     background-color: grey;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
+.about-portrait {}
+
+.about-text {}
 
 .about-values {
     height: 85vh;
     display: flex;
-    background-color: blue;
+    background-color: green;
     align-items: center;
 }
 
@@ -40,4 +44,5 @@ h1 {
     align-items: center;
     width: 20rem;
     border: solid;
+    margin: 20px;
 }
