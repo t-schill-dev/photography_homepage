@@ -1,7 +1,6 @@
 footer {
   background-color: var(--bg-color);
   color: var(--font-color);
-  min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,11 +10,21 @@ footer {
 .footerDiv {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  padding: 10px 0;
+  width: 100%;
 }
 
-.socialApp {
-  max-width: 400px;
+.footerDiv:first-child {
+  justify-content: flex-start;
+  background-color: yellowgreen;
+  width: 100%;
+}
+
+.footerDiv:last-child {
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--accent-color);
 }
 
 .AGB-link {
@@ -28,4 +37,8 @@ footer {
 
 .AGB-link:hover {
   color: var(--font-color);
+}
+
+.fa-brands {
+  color: var(--accent-color);
 }
