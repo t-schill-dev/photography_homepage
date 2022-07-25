@@ -11,3 +11,17 @@ h1 {
 .featured-img {
   margin: 0 10px;
 }
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+#home-about {
+  border-radius: 50%;
+}
+
