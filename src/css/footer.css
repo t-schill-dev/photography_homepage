@@ -1,11 +1,31 @@
+footer {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .footerDiv {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-footer {
-  background-color: black;
-  color: antiquewhite;
-  height: 10vh;
+.socialApp {
+  max-width: 400px;
+}
+
+.AGB-link {
+  text-decoration: none;
+}
+
+.AGB-link:link {
+  color: var(--font-color);
+}
+
+.AGB-link:hover {
+  color: var(--font-color);
 }
