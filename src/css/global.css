@@ -1,6 +1,14 @@
 @import url('./reset.css');
 @import url('./navbar.css');
 @import url('./footer.css');
+
+:root {
+  --font-color: #000;
+  --element-color: #E9EBEF;
+  --bg-color: #FFF;
+  --accent-color: #81A072;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
