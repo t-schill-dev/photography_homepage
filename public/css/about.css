@@ -1,3 +1,48 @@
 h1 {
-  color: cornflowerblue;
+    color: cornflowerblue;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-page_top {
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-portrait {}
+
+.about-text {}
+
+.about-values {
+    height: 85vh;
+    display: flex;
+    background-color: green;
+    align-items: center;
+}
+
+.value1,
+.value2,
+.value3 {
+    background-color: white;
+    height: 300px;
+    width: 85%;
+    border: solid;
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    border: solid;
+    margin: 20px;
 }
