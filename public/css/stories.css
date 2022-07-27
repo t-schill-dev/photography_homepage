@@ -10,14 +10,18 @@
     position: relative;
     bottom: 50%;
     text-align: center;
-    color: green;
+    color: Black;
     visibility: hidden;
 }
 
-.grid-item:hover {
+.grid-item:hover>img {
     opacity: 60%;
     -webkit-transition: all 0.5s 0s ease;
     -moz-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
     transition: all 0.5s 0s ease;
+}
+
+.grid-item:hover>.stories-description {
+    visibility: visible;
 }
