@@ -16,9 +16,14 @@ h1 {
     justify-content: center;
 }
 
-.about-portrait {}
+.about-portrait,
+.about-text {
+    width: 50%;
+}
 
-.about-text {}
+.about-portrait>img {
+    margin: 0 auto;
+}
 
 .about-values {
     height: 85vh;
