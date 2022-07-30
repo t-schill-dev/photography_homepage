@@ -10,12 +10,19 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   margin: 0 10%;
   min-height: 85vh;
 }
+=======
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+>>>>>>> main
