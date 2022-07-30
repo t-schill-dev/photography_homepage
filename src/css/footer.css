@@ -8,37 +8,59 @@ footer {
 }
 
 .footerDiv {
-  display: flex;
-  flex-direction: row;
   padding: 10px 0;
   width: 100%;
 }
 
-.footerDiv:first-child {
+/* social links */
+.footerSocialApp {
   justify-content: flex-start;
-  background-color: yellowgreen;
   width: 100%;
 }
 
-.footerDiv:last-child {
-  justify-content: flex-end;
-  position: absolute;
-  bottom: 0;
-  background-color: var(--accent-color);
+.socialApp-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  padding-left: 0;
+  justify-content: center;
 }
 
-.AGB-link {
+.socialApp-list--item a {
+  color: var(--font-color);
+  padding: 0 1rem;
+}
+
+.fa-facebook {
+  color: var(--facebook-color);
+}
+
+.fa-instagram {
+  color: var(--instagram-color);
+}
+
+/* legal */
+.footerLegal {
+  margin-top: 2rem;
+}
+
+.copyright {
+  font-weight: 600;
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.legal-list {
+  list-style: none;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.legal-list--item a {
   text-decoration: none;
-}
-
-.AGB-link:link {
   color: var(--font-color);
-}
-
-.AGB-link:hover {
-  color: var(--font-color);
-}
-
-.fa-brands {
-  color: var(--accent-color);
 }

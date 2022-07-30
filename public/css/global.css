@@ -7,6 +7,8 @@
   --element-color: #E9EBEF;
   --bg-color: #FFF;
   --accent-color: #81A072;
+  --facebook-color: #1877f2;
+  --instagram-color: #d6249f;
 }
 
 body {
@@ -14,15 +16,7 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: column;
-  margin: 0 10%;
-  min-height: 85vh;
-}
-=======
     display: flex;
     flex-direction: column;
     margin: 0 10%;
 }
->>>>>>> main
