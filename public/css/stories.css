@@ -1,0 +1,27 @@
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 1em;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.stories-description {
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: Black;
+    visibility: hidden;
+}
+
+.grid-item:hover>img {
+    opacity: 60%;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+.grid-item:hover>.stories-description {
+    visibility: visible;
+}
