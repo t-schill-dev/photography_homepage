@@ -6,31 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Page</title>
   <link rel="stylesheet" href="/css/global.css">
+  <script src="https://kit.fontawesome.com/762f382184.js" crossorigin="anonymous"></script>
+  <script src="../../js/navbar.js" defer></script>
   
   <link rel="stylesheet" href="/css/about.css">
 
 </head>
-<header>
-  <div class="navbar">
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/about">About</a>
-        </li>
-        <li>
-            <a href="/work">Work</a>
-        </li>
-        <li>
-            <a href="/stories">Stories</a>
-        </li>
-        <li>
-            <a href="/contact">Contact</a>
-        </li>
-    </ul>
-</div>
+
+<header class="page-header">
+    <div>
+        <img src="../assets/images/timon_shill_photography_logo.svg" alt="logo consisitng of the outline of a camera and Timon Schills name underneath" class="logo">
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="navigation-tabList" aria-expanded="false">
+        <span class="spanBars"><i class="fa-solid fa-bars fa-xl"></i></span>
+        <span class="spanXmark elHidden"><i class="fa-solid fa-xmark fa-xl"></i></span>
+    </button>
+    <nav>
+        <ul id="navigation-tabList" data-visible="false" class="navigation-tabList">
+            <li class="homeTab">
+                <a href="/">Home</a>
+            </li>
+            <li class="aboutTab">
+                <a href="/about">About</a>
+            </li>
+            <li class="workTab">
+                <a href="/work">Work</a>
+            </li>
+            <li class="storiesTab">
+                <a href="/stories">Stories</a>
+            </li>
+            <li class="contactTab">
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
 </header>
+
 <body>
   <div class="container">
     
