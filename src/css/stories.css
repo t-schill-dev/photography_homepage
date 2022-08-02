@@ -14,7 +14,7 @@
     visibility: hidden;
 }
 
-.grid-item:hover>img {
+.grid-item:hover>a {
     opacity: 60%;
     -webkit-transition: all 0.5s 0s ease;
     -moz-transition: all 0.5s 0s ease;
@@ -24,4 +24,34 @@
 
 .grid-item:hover>.stories-description {
     visibility: visible;
+}
+
+#client_1 {
+    height: 100vh;
+    background-color: var(--background-color_1);
+}
+
+#client_2 {
+    height: 100vh;
+    background-color: var(--background-color_2);
+}
+
+#client_3 {
+    height: 100vh;
+    background-color: var(--background-color_1);
+}
+
+#client_4 {
+    height: 100vh;
+    background-color: var(--background-color_2);
+}
+
+#client_5 {
+    height: 100vh;
+    background-color: var(--background-color_1);
+}
+
+#client_6 {
+    height: 100vh;
+    background-color: var(--background-color_2);
 }
