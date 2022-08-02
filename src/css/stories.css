@@ -55,3 +55,23 @@
     height: 100vh;
     background-color: var(--background-color_2);
 }
+
+.scroll-up {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.scroll-up:hover,
+.scroll-up:active {
+    opacity: 1;
+}
+
+.scroll-up .fa-circle-arrow-up {
+    color: darkgrey;
+    font-size: 2.5em;
+    background-color: white;
+    border-radius: 50%;
+}
