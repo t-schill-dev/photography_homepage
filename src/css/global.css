@@ -7,10 +7,13 @@
   --element-color: #E9EBEF;
   --bg-color: #FFF;
   --accent-color: #81A072;
+  --facebook-color: #1877f2;
+  --instagram-color: #d6249f;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
