@@ -2,24 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/762f382184.js" crossorigin="anonymous"></script>
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/global.css"> {% block head %}{% endblock %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/global.css">
+  <script src="https://kit.fontawesome.com/762f382184.js" crossorigin="anonymous"></script>
+  <script src="../../js/navbar.js" defer></script>
+  {% block head %}{% endblock %}
 </head>
-<header>
-    {% include "navbar.html" %}
-</header>
+
+{% include "navbar.html" %}
+
 
 <body>
     <div class="container">
         {{ content | safe }}
     </div>
 </body>
-<footer>
-    {% include "footer.html" %}
-</footer>
+
+
+{% include "footer.html" %}
+
 
 </html>
