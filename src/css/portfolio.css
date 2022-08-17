@@ -3,7 +3,7 @@ h1 {
 }
 
 .container {
-  margin: 0 20px !important;
+  margin: 0 !important;
 }
 
 .categories-container {
@@ -33,7 +33,7 @@ h1 {
 }
 
 .categories-btn {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 300;
   width: 200px;
@@ -42,3 +42,33 @@ h1 {
   border: none;
   border-radius: 5px;
 }
+
+.category-section_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+.category-section_gallery, .grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 1px;
+  margin: 10px;
+  /* flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto; */
+}
+
+.content {
+  margin: 10px;
+  grid-row-end: span 4;
+  width: 100%;
+  height: auto;
+}
+
