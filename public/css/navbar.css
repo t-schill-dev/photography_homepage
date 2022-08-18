@@ -1,72 +1,71 @@
-
 .page-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--element-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--background-color_2);
 }
 
 .logo {
-  margin: 0.5rem 2.5rem;
+    margin: 0.5rem 2.5rem;
 }
 
 .navigation-tabList {
-
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: var(--element-color);
-  padding-right: 2.5rem;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: var(--background-color_2);
+    padding-right: 2.5rem;
 }
 
-.navigation-tabList a:visited, a:hover, a:active, a:link {
-  color: var(--font-color);
+.navigation-tabList a:visited,
+a:hover,
+a:active,
+a:link {
+    color: var(--font-color);
+    font-size: 18px;
 }
 
 .mobile-nav-toggle {
-  display: none;
+    display: none;
 }
 
 .navigation-tabList a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .elHidden {
-  display: none;
+    display: none;
 }
 
 .tabBoarder {
-  border-bottom: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--button-green);
 }
 
 @media (max-width: 35em) {
-  .navigation-tabList {
-    position: fixed;
-    z-index: 9900;
-    inset: 0 0 0 30%;
-    flex-direction: column;
-    padding: 6rem 3rem;
-    gap: 2rem;
-    transform: translateX(100%);
-    transition: transform 350ms ease-out;
-  }
-
-  .navigation-tabList[data-visible="true"] {
-    transform: translateX(0%);
-  }
-
-  .mobile-nav-toggle {
-    display: block;
-    position: absolute;
-    top: 1.5rem;
-    right: 2rem;
-    z-index: 9999;
-    background: url("");
-    width: 2rem;
-    height: 2rem;
-    border: 0;
-  }
+    .navigation-tabList {
+        position: fixed;
+        z-index: 9900;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        padding: 6rem 3rem;
+        gap: 2rem;
+        transform: translateX(100%);
+        transition: transform 350ms ease-out;
+    }
+    .navigation-tabList[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        z-index: 9999;
+        background: url("");
+        width: 2rem;
+        height: 2rem;
+        border: 0;
+    }
 }
-

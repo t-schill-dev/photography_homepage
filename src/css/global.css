@@ -2,13 +2,23 @@
 @import url('./navbar.css');
 @import url('./footer.css');
 :root {
-
-    --font-color: #000;
-    --element-color: #E9EBEF;
-    --bg-color: #FFF;
-    --accent-color: #81A072;
+    --feedback-coror_red: #FF2F00;
+    --feedback-color_green: #19B600;
     --background-color_1: #FFFAF3;
     --background-color_2: #EFE6DD;
+    --background-color_3: #8B816A;
+    --button-green: #628054;
+    /* Grayscale */
+    --font-color: #000;
+    --dark-grey: #979797;
+    --lighter-gray: #D9D9D9;
+    --bright-gray: #EDEEF3;
+    /* Fonts */
+    --page-title-font: 'Crimson Pro', serif;
+    --body-text-font: 'Inter', sans-serif;
+    --header-size: 24px;
+    --header-weight: 500;
+    --regular-font-size: 1.1rem;
 }
 
 
@@ -18,16 +28,38 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow-x: hidden;
+h1 {
+    font-size: var(--header-size);
+    font-weight: var(--header-weight);
+}
 
+body {
+    font-family: var(--body-text-font);
+    font-size: var(--regular-font-size);
+    font-weight: 300;
+    overflow-x: hidden;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     margin: 0 10%;
-
 }
 
+button {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1rem!important;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    height: 40px;
+    width: 164px;
+    background-color: var(--button-green);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}

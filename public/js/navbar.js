@@ -5,19 +5,19 @@ const bars = document.querySelector('.spanBars');
 const xmark = document.querySelector('.spanXmark');
 
 navToggle.addEventListener('click', () => {
-  const visibility = navList.getAttribute('data-visible');
+    const visibility = navList.getAttribute('data-visible');
 
-  if (visibility === 'false') {
-    navList.setAttribute('data-visible', true);
-    navToggle.setAttribute('aria-expanded', true);
-    bars.classList.add('elHidden');
-    xmark.classList.remove('elHidden');
-  } else if (visibility === 'true') {
-    navList.setAttribute('data-visible', false);
-    navToggle.setAttribute('aria-expanded', false);
-    bars.classList.remove('elHidden');
-    xmark.classList.add('elHidden');
-  }
+    if (visibility === 'false') {
+        navList.setAttribute('data-visible', true);
+        navToggle.setAttribute('aria-expanded', true);
+        bars.classList.add('elHidden');
+        xmark.classList.remove('elHidden');
+    } else if (visibility === 'true') {
+        navList.setAttribute('data-visible', false);
+        navToggle.setAttribute('aria-expanded', false);
+        bars.classList.remove('elHidden');
+        xmark.classList.add('elHidden');
+    }
 });
 
 // Tab bottom border of active page
@@ -30,19 +30,19 @@ const contact = document.querySelector('.contactTab');
 const activePage = window.location.href;
 
 switch (activePage) {
-  case 'http://localhost:8080/':
-    home.classList.add('tabBoarder');
-    break;
-  case 'http://localhost:8080/about/':
-    about.classList.add('tabBoarder');
-    break;
-  case 'http://localhost:8080/work/':
-    work.classList.add('tabBoarder');
-    break;
-  case 'http://localhost:8080/stories/':
-    stories.classList.add('tabBoarder');
-    break;
-  case 'http://localhost:8080/contact/':
-    contact.classList.add('tabBoarder');
-    break;
+    case 'http://localhost:8080/':
+        home.classList.add('tabBoarder');
+        break;
+    case 'http://localhost:8080/about/':
+        about.classList.add('tabBoarder');
+        break;
+    case 'http://localhost:8080/portfolio/':
+        work.classList.add('tabBoarder');
+        break;
+    case 'http://localhost:8080/stories/':
+        stories.classList.add('tabBoarder');
+        break;
+    case 'http://localhost:8080/contact/':
+        contact.classList.add('tabBoarder');
+        break;
 }
