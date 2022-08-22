@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Let&#39;s connect!</title>
+    <title>Contact Timon</title>
     <!-- Import google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,68 +52,68 @@
 <body>
     <div class="container">
         
-<h1>Let&#39;s connect!</h1>
-<main>
-  <div class="contact-page">
-    <div class="contact-picture left-box">
-      <img
-        class="content"
-        src="https://via.placeholder.com/400x500"
-        alt="placeholder"
+<h1 class="contact-timon">Contact Timon</h1>
+<div class="contact-page">
+  <div class="contact-picture left-box">
+    <img
+      class="content"
+      src="https://via.placeholder.com/240x240"
+      alt="placeholder"
+    />
+  </div>
+  <!-- Form send via contact PHP file -->
+  <form action="contact.php" method="post" class="contact-form">
+    <div class="elem-group--top">
+      <label for="title">Reason For Contacting Me</label>
+      <input
+        type="text"
+        id="title"
+        name="email_title"
+        required
+        placeholder="Request"
+        pattern="[A-Za-z0-9\s]{8,60}"
       />
     </div>
-    <!-- Form send via contact PHP file -->
-    <form action="contact.php" method="post">
-      <div class="elem-group">
-        <label for="title">Reason For Contacting Me</label>
-        <input
-          type="text"
-          id="title"
-          name="email_title"
-          required
-          placeholder="Request"
-          pattern="[A-Za-z0-9\s]{8,60}"
-        />
-      </div>
-      <div class="elem-group right-box">
-        <label for="name">Your Name</label>
-        <input
-          type="text"
-          id="name"
-          name="visitor_name"
-          placeholder="Timon Schill"
-          pattern="[A-Z\sa-z]{3,20}"
-          required
-        />
-      </div>
-      <div class="elem-group">
-        <label for="email">Your E-mail</label>
-        <input
-          type="email"
-          id="email"
-          name="visitor_email"
-          placeholder="hello@email.com"
-          required
-        />
-      </div>
-      <div class="elem-group">
-        <label for="calendar-input">When do you need me?(optional)</label>
-        <input type="datetime-local" id="calendar" name="calendar_date"/>
-      </div>
+    <div class="elem-group right-box">
+      <label for="name">Your Name</label>
+      <input
+        type="text"
+        id="name"
+        name="visitor_name"
+        placeholder="Timon Schill"
+        pattern="[A-Z\sa-z]{3,20}"
+        required
+      />
+    </div>
+    <div class="elem-group">
+      <label for="email">Your E-mail</label>
+      <input
+        type="email"
+        id="email"
+        name="visitor_email"
+        placeholder="hello@email.com"
+        required
+      />
+    </div>
+    <div class="elem-group">
+      <label for="calendar-input">When do you need me? (optional)</label>
+      <input type="datetime-local" id="calendar" name="calendar_date" class="calender-text"/>
+    </div>
 
-      <div class="elem-group">
-        <label for="message">Write your message</label>
-        <textarea
-          id="message"
-          name="visitor_message"
-          placeholder="Say whatever you want."
-          required
-        ></textarea>
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</main>
+    <div class="elem-group">
+      <label for="message">Write your message</label>
+      <textarea
+        id="message"
+        name="visitor_message"
+        placeholder="Say whatever you want."
+        required
+      ></textarea>
+    </div>
+    <div class="elem-group--btn">
+      <button type="submit" class="contact-btn">Send Message</button>
+    </div>
+  </form>
+</div>
 
     </div>
 </body>

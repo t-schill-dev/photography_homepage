@@ -43,7 +43,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 0 10%;
+    padding: 0 10%;
 }
 
 button {
