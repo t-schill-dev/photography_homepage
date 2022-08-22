@@ -1,10 +1,11 @@
 footer {
-  background-color: var(--bg-color);
+  background-color: var(--background-color_2);
   color: var(--font-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: var(--body-text-font);
 }
 
 .footerDiv {
