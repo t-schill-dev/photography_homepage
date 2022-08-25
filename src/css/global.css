@@ -16,7 +16,7 @@
     /* Fonts */
     --page-title-font: 'Crimson Pro', serif;
     --body-text-font: 'Inter', sans-serif;
-    --header-size: 24px;
+    --header-size: 36px;
     --header-weight: 500;
     --regular-font-size: 1.1rem;
     /* socials */
@@ -36,6 +36,14 @@ h1 {
     font-weight: var(--header-weight);
 }
 
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 body {
     font-family: var(--body-text-font);
     font-size: var(--regular-font-size);
@@ -43,10 +51,12 @@ body {
     overflow-x: hidden;
 }
 
+
+/* Base container of every child HTML */
+
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
 }
 
 button {
