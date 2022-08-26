@@ -11,12 +11,12 @@
     /* Grayscale */
     --font-color: #000;
     --dark-grey: #979797;
-    --lighter-gray: #D9D9D9;
-    --bright-gray: #EDEEF3;
+    --lighter-grey: #D9D9D9;
+    --bright-grey: #EDEEF3;
     /* Fonts */
     --page-title-font: 'Crimson Pro', serif;
     --body-text-font: 'Inter', sans-serif;
-    --header-size: 24px;
+    --header-size: 36px;
     --header-weight: 500;
     --regular-font-size: 1.1rem;
     /* socials */
@@ -34,6 +34,11 @@ html {
 h1 {
     font-size: var(--header-size);
     font-weight: var(--header-weight);
+    font-family: var(--page-title-font);
+}
+
+h2 {
+    font-size: 24px;
 }
 
 body {

@@ -4,6 +4,22 @@
     align-items: center;
 } */
 
+
+/* Add styling to global container */
+
+.container {
+    align-items: center;
+    background-color: var(--background-color_1);
+}
+
+h2 {
+    color: var(--bright-grey);
+}
+
+a {
+    text-decoration: none;
+}
+
 .about-page_top {
     height: 100vh;
     background-color: var(--background-color_1);
@@ -26,30 +42,40 @@
     border: 3px solid var(--button-green);
 }
 
-.about-values {
-    height: 85vh;
+.values-container {
     display: flex;
-    background-color: green;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 85vh;
+    background-color: var(--background-color_2);
+}
+
+.about-values {
+    display: flex;
     align-items: center;
 }
 
 .value1,
 .value2,
 .value3 {
-    background-color: white;
+    background-color: var(--background-color_3);
+    color: var(--lighter-grey);
     height: 300px;
     width: 85%;
-    border: solid;
+    border: 1px solid var(--button-green);
     text-align: center;
     margin: 20px;
+    padding: 5px;
 }
 
 .contact-me {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: 20rem;
-    border: solid;
+    border: 1px solid var(--button-green);
     margin: 20px;
     padding: 10px;
 }
@@ -62,5 +88,8 @@
     .about-portrait,
     .about-text {
         width: 80%;
+    }
+    .about-values {
+        flex-direction: column;
     }
 }
