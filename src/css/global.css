@@ -2,7 +2,7 @@
 @import url('./navbar.css');
 @import url('./footer.css');
 :root {
-    --feedback-coror_red: #FF2F00;
+    --feedback-color_red: #FF2F00;
     --feedback-color_green: #19B600;
     --background-color_1: #FFFAF3;
     --background-color_2: #EFE6DD;
@@ -38,6 +38,7 @@ body {
     font-size: var(--regular-font-size);
     font-weight: 300;
     overflow-x: hidden;
+    background-color: var(--background-color_1);
 }
 
 .container {
