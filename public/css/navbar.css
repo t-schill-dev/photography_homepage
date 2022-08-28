@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--background-color_2);
+    background: var(--bright-gray);
 }
 
 .logo {
@@ -15,7 +15,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    background: var(--background-color_2);
     padding-right: 2.5rem;
 }
 

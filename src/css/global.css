@@ -11,8 +11,8 @@
     /* Grayscale */
     --font-color: #000;
     --dark-grey: #979797;
-    --lighter-gray: #D9D9D9;
-    --bright-gray: #EDEEF3;
+    --lighter-grey: #D9D9D9;
+    --bright-grey: #EDEEF3;
     /* Fonts */
     --page-title-font: 'Crimson Pro', serif;
     --body-text-font: 'Inter', sans-serif;
@@ -34,6 +34,11 @@ html {
 h1 {
     font-size: var(--header-size);
     font-weight: var(--header-weight);
+    font-family: var(--page-title-font);
+}
+
+h2 {
+    font-size: 24px;
 }
 
 h2 {
@@ -75,4 +80,12 @@ button {
     background-color: var(--button-green);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+button:active {
+    opacity: 40%;
 }
