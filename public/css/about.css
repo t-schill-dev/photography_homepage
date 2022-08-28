@@ -102,7 +102,14 @@
         .about-text {
             width: 80%;
         }
+        .values-container {
+            height: auto;
+        }
         .about-values {
             flex-direction: column;
+        }
+        .cta-wrapper {
+            width: 60%;
+            height: 30%;
         }
     }
