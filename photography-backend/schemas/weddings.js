@@ -3,9 +3,9 @@ export default {
     type: 'document',
     title: 'Wedding',
     fields: [{
-            name: 'customer',
+            name: 'client',
             type: 'string',
-            title: 'Customer',
+            title: 'Client',
 
         },
         {
@@ -13,45 +13,73 @@ export default {
             type: 'date',
             title: 'Date'
         },
-        // First category
+        {
+            name: 'location',
+            type: 'string',
+            title: 'Location'
+        },
+
         {
             name: 'category',
             type: 'object',
-            title: 'Category',
-
-
             fields: [{
-                    name: 'name',
-                    type: 'string',
-                    title: 'Name'
+                    title: 'Church',
+                    name: 'church',
+                    type: 'church-gallery',
+
+
                 },
+
                 {
-                    name: 'images',
-                    type: 'array',
-                    title: 'Images',
-                    of: [{
-                        name: 'image',
-                        type: 'image',
-                        title: 'Image',
-                        fields: [{
-                                name: 'caption',
-                                type: 'string',
-                                title: 'Caption',
-                            },
-                            {
-                                name: 'featured',
-                                type: 'boolean',
-                                title: 'Featured'
-                            }
-                        ],
-                    }, ]
+                    title: 'Wedding_photoshooting',
+                    name: 'wedding_photoshooting',
+                    type: 'wedding_photoshooting',
+
+
                 },
             ]
+
         },
 
+        // {
+        //     name: 'category',
+        //     type: 'object',
+        //     title: 'Category',
 
+
+        //     fields: [{
+        //             name: 'name',
+        //             type: 'string',
+        //             title: 'Name'
+        //         },
+        //         {
+        //             name: 'images',
+        //             type: 'array',
+        //             title: 'Images',
+        //             of: [{
+        //                 name: 'image',
+        //                 type: 'image',
+        //                 title: 'Image',
+        //                 fields: [{
+        //                         name: 'caption',
+        //                         type: 'string',
+        //                         title: 'Caption',
+        //                     },
+        //                     {
+        //                         name: 'featured',
+        //                         type: 'boolean',
+        //                         title: 'Featured'
+        //                     }
+        //                 ],
+        //             }, ]
+        //         },
+        //     ],
+
+        // },
 
     ]
+
+
 }
 
 // export default {
