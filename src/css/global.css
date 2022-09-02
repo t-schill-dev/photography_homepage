@@ -41,6 +41,14 @@ h2 {
     font-size: 24px;
 }
 
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 body {
     font-family: var(--body-text-font);
     font-size: var(--regular-font-size);
@@ -48,10 +56,12 @@ body {
     overflow-x: hidden;
 }
 
+
+/* Base container of every child HTML */
+
 .container {
     display: flex;
     flex-direction: column;
-    /* padding: 0 10%; */
 }
 
 button {
