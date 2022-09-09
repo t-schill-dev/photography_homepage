@@ -102,6 +102,18 @@ h1 {
 #call-to-action, #call-to-action>button {
   margin: 0 auto;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* #call-to-action>div {
+  display: flex;
+} */
+
+.cta-link {
+  text-decoration: none;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 #call-to-action>button {
