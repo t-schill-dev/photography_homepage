@@ -20,5 +20,8 @@
   "homepage": "https://github.com/t-schill-dev/photography_homepage#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "@sanity/image-url": "^1.0.1"
   }
 }
